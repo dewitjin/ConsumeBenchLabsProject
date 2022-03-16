@@ -9,7 +9,7 @@ namespace ConsumeBenchLabs.Helper
 {
     public static class BenchLabsAPI
     {
-        public static HttpClient Initial()
+        public static HttpClient Init()
         {
             var client = new HttpClient();
             client.BaseAddress = new Uri("https://resttest.bench.co/");
@@ -21,7 +21,7 @@ namespace ConsumeBenchLabs.Helper
         public static async Task<IList<TransactionPage>> GetTransactionPages()
         {
             var pages = new List<TransactionPage>();
-            var client = Initial();
+            var client = Init();
             var pageNumber = 1;
       
             try
@@ -35,7 +35,7 @@ namespace ConsumeBenchLabs.Helper
                     {
                         var result = await response.Content.ReadAsAsync<TransactionPage>();//Requires the WebApi.Client package
                         pages.Add(result);
-                        pageNumber = ++pageNumber;
+                        ++pageNumber;
                     }
                     else 
                     { 
