@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeBenchLabs", "ConsumeBenchLabs\ConsumeBenchLabs.csproj", "{2FD5A5A6-61EB-4189-AB8C-FAC7EEFB144A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitConsumeBenchLabs", "XUnitConsumeBenchLabs\XUnitConsumeBenchLabs.csproj", "{8569E8E6-0BBC-4A62-AF44-C3E000E3EE4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD5A5A6-61EB-4189-AB8C-FAC7EEFB144A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD5A5A6-61EB-4189-AB8C-FAC7EEFB144A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD5A5A6-61EB-4189-AB8C-FAC7EEFB144A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD5A5A6-61EB-4189-AB8C-FAC7EEFB144A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8569E8E6-0BBC-4A62-AF44-C3E000E3EE4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8569E8E6-0BBC-4A62-AF44-C3E000E3EE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8569E8E6-0BBC-4A62-AF44-C3E000E3EE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8569E8E6-0BBC-4A62-AF44-C3E000E3EE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC60607D-2881-4BC6-BE8E-B3173890E9B9}
+	EndGlobalSection
+EndGlobal
